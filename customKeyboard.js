@@ -169,7 +169,7 @@ export class CustomTextInput extends Component {
         }
         return (
             <TextInput {...others}
-                       ref={this.onRef}
+                       //ref={this.onRef}
                        onChangeText={this._onChangeText}
                        value={this.state.text}
             />
